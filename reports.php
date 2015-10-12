@@ -8,7 +8,7 @@
 	<meta charset="utf-8">
 	<link href="css.css" rel="stylesheet" type="text/css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<title>Main Menu (<?php echo $nama; ?>)</title>
+	<title>Reports (<?php echo $nama; ?>)</title>
 	<!--[if lt IE 9]>
   	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -20,12 +20,18 @@
 ?>
 
 <section class="body">
-	<div class="reminder">
-		JOB REMINDER
-	</div>
-	<div class="active-report">
-		--ALERT--<br>
-		EXTERMINATE INFESTED (CERES) - 7500 CREDITS<br>
+	<h1 align="center">REPORT HISTORY</h1>
+	<div class="list">
+		<table align="center" cellspacing="4">
+			<tr>
+				<th>Tanggal Report</th>
+				<th>Skor (dari Admin)</th>
+			</tr>
+			<tr>
+				<td><a href="<?php echo ''; ?>.php">11/10/2015</a></td>
+				<td>Belum ada skor</td>
+			</tr>
+		</table>
 	</div>
 </section>
 
