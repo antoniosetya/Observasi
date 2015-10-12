@@ -34,8 +34,10 @@
 		tes
 	</li>
 </section>
-<footer>
-	FOOTER
-</footer>
+
+<?php 
+	include("footer.php");
+?>
+
 </body>
 </html>
