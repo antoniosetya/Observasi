@@ -22,13 +22,17 @@
 		<li><a href="profile.php" title="Menu 3">Profile</a></li>
     </ul> 
 </header>
-<section class="reminder">
-ISI
+
+<section class="body">
+	<div class="reminder">
+		JOB REMINDER
+	</div>
+	<div class="active-report">
+		--ALERT--<br>
+		EXTERMINATE INFESTED (CERES) - 7500 CREDITS<br>
+	</div>
 </section>
-<section class="active-reminder">
---ALERT--<br>
-EXTERMINATE INFESTED (CERES) - 7500 CREDITS<br>
-</section>
+
 <footer>
 	<div class="foot-temp" style="height : 150px">
 		<div class="foot-tab" style="order: 1; flex: 0 1 200px">
