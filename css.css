@@ -98,6 +98,25 @@ section {
 	text-align : center;
 }
 
+.scoring-temp {
+	width : 800px;
+	height : 400px;
+	background : rgba(0,0,0,0.5);
+	margin : auto;
+	margin-bottom : 10px;
+	text-align : center;
+}
+.scoring-report {
+	width : 30%;
+	background : blue;
+}
+.scoring-teacher {
+	width : 30%;
+	background : yellow;
+}	
+.scoring-tab {
+	width : 40%
+}
 /* ======================================================
                         FOOTER
 ========================================================= */
