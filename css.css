@@ -1,0 +1,36 @@
+/* ===============================================================
+                GLOBAL CONFIGURATION
+================================================================== */
+img {
+	max-width : 100%
+}
+html, body {
+	margin : 0;
+	padding : 0;
+	width : 100%;
+	height : auto;
+	background-color : #222222;	
+	background-attachment: scroll;
+    background-position: left top;
+    background-repeat: repeat;
+	margin : 0px 0px 0px 0px;
+
+
+/* ===============================================================
+                    MENUBAR/HEADER
+==================================================================  */
+header ul {
+   float : left;
+   margin : 7px 0 0 30px;
+   padding : 0;    
+   height : 40px;    
+}
+
+header ul li {
+   float: left;
+   background-color: #000;
+   height : 31px;
+   margin: 0px 5px 0 5px;
+   color: #F00;
+   list-style-type: none;
+}
