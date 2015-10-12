@@ -99,21 +99,30 @@ section {
 }
 
 .scoring-temp {
-	width : 800px;
+	width : 1000px;
 	height : 400px;
 	background : rgba(0,0,0,0.5);
 	margin : auto;
 	margin-bottom : 10px;
 	text-align : center;
-
 	list-style-type : none;
 }
-.scoring-temp li {
-	display : inline-block;
-	width : 33.3%;
+.scoring-temp ul {
+	float : left;
+	padding : 0px;
 	height : 100%;
 	background : red;
-}/* ======================================================
+	list-style-type : none;
+	margin : 0px;
+}
+.scoring-temp ul li {
+	background : rgba(0,0,0,0);
+	display : block;
+}
+.scoring-temp ul li:hover {
+	background : rgba(0,0,0,0.5);
+}
+/* ======================================================
                         FOOTER
 ========================================================= */
 
