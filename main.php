@@ -19,7 +19,13 @@
         <li><a href="#" title="Menu 4">Menu 4</a></li>
     </ul> 
 </header>
-
+<section class="reminder">
+ISI
+</section>
+<section class="active-reminder">
+--ALERT--<br>
+EXTERMINATE INFESTED (CERES) - 7500 CREDITS<br>
+</section>
 <footer>
 	FOOTER
 </footer>
