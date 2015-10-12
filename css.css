@@ -14,6 +14,8 @@ html, body {
     background-position: left top;
     background-repeat: repeat;
 	margin : 0px 0px 0px 0px;
+    font-size : 18px;
+    font-family : Arial;
 }
 
 /* ===============================================================
@@ -32,9 +34,12 @@ header {
 	margin-bottom : 30px;
 }
 
+header .name {
+    margin : 0 0 0 10px;
+}
 header ul {
-   float : left;
-   margin : 7px 0 0 30px;
+   float : right;
+   margin : -30px 20px 0 30px;
    padding : 0;    
    height : 40px;    
 }
@@ -43,9 +48,22 @@ header ul li {
    float: left;
    background-color: #000;
    height : 31px;
-   margin: 0px 5px 0 5px;
+   margin: 0px 2px 0 2px;
    color: #F00;
    list-style-type: none;
+}
+header li a {
+   color : #F00;  
+   text-decoration : none; 
+   background-color: #000; 
+   padding-left : 5px;
+   padding-right : 5px;
+   padding-top : 10px;
+   padding-bottom : 14px;
+}
+header li a:hover {
+	color : #F05;
+	background-color : #FFFF99;
 }
 
 /* ===============================================================

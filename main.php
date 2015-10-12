@@ -9,14 +9,16 @@
 	<![endif]-->
 </head>
 <body>
-	
+<?php  
+	error_reporting(0);
+	$nama = $_POST["nama"];
+?>	
 <header>
+	<div class="name">WELCOME, <?php echo $nama; ?>. <br> <?php echo date("d/m/Y"); ?> </div>
 	<ul>
-		<li><a href="#" title="Home">Home</a><li>
-        <li><a href="#" title="Menu 1">Menu 1</a></li>
-        <li><a href="#" title="Menu 2">Menu 2</a></li>
-        <li><a href="#" title="Menu 3">Menu 3</a></li>
-        <li><a href="#" title="Menu 4">Menu 4</a></li>
+        <li><a href="main.php" title="Menu 1">Main Menu</a></li>
+        <li><a href="reports.php" title="Menu 2">Reports</a></li>
+		<li><a href="profile.php" title="Menu 3">Profile</a></li>
     </ul> 
 </header>
 <section class="reminder">
