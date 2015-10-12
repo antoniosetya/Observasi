@@ -22,15 +22,17 @@
     </ul> 
 </header>
 <section class="scoring-temp">
-	<section class="scoring-report">
+	<li>
 		tes
-	</section>
-	<section class="scoring-teacher">
+	</li><!--
+	
+	--><li>
 		tes
-	</section>
-	<section class="scoring-tab">
+	</li><!--
+	
+	--><li>
 		tes
-	</section>
+	</li>
 </section>
 <footer>
 	FOOTER

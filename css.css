@@ -105,19 +105,15 @@ section {
 	margin : auto;
 	margin-bottom : 10px;
 	text-align : center;
+
+	list-style-type : none;
 }
-.scoring-report {
-	width : 30%;
-	background : blue;
-}
-.scoring-teacher {
-	width : 30%;
-	background : yellow;
-}	
-.scoring-tab {
-	width : 40%
-}
-/* ======================================================
+.scoring-temp li {
+	display : inline-block;
+	width : 33.3%;
+	height : 100%;
+	background : red;
+}/* ======================================================
                         FOOTER
 ========================================================= */
 
