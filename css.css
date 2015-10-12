@@ -116,6 +116,7 @@ section {
 	text-align : center;
 }
 
+<<<<<<< HEAD
 /* LIST OF REPORTS */
 
 .list {
@@ -138,6 +139,24 @@ section {
 
 
 /* ======================================================
+=======
+.scoring-temp {
+	width : 800px;
+	height : 400px;
+	background : rgba(0,0,0,0.5);
+	margin : auto;
+	margin-bottom : 10px;
+	text-align : center;
+
+	list-style-type : none;
+}
+.scoring-temp li {
+	display : inline-block;
+	width : 33.3%;
+	height : 100%;
+	background : red;
+}/* ======================================================
+>>>>>>> origin/master
                         FOOTER
 ========================================================= */
 
