@@ -15,7 +15,11 @@
 </head>
 <body>
 
-<?php 
+<?php
+	/* MEKANISME MENUBAR UNTUK ADMIN / GURU BELUM SEMPURNA */
+	if ($_GET["admin"] == "") {
+		$_GET["admin"] = 0;
+	}
 	include("header.php");
 ?>
 
