@@ -39,18 +39,20 @@ header {
 
 header .name {
     margin : 0 0 0 10px;
+	padding : 2px 5px;
 }
+
 header ul {
    float : right;
-   margin : -30px 20px 0 30px;
-   padding : 0;    
-   height : 40px;    
+   margin : -33px 20px 0 30px;
+   padding-top : 2px;    
+   height : 50px;    
 }
 
 header ul li {
    float: left;
    background-color: #000;
-   height : 31px;
+   height : 35px;
    margin: 0px 2px 0 2px;
    color: #F00;
    list-style-type: none;
@@ -59,10 +61,11 @@ header li a {
    color : #F00;  
    text-decoration : none; 
    background-color: #000; 
+   height : 30px;
    padding-left : 5px;
    padding-right : 5px;
-   padding-top : 10px;
-   padding-bottom : 14px;
+   padding-top : 20px;
+   padding-bottom : 15px;
 }
 header li a:hover {
 	color : #F05;
@@ -75,18 +78,34 @@ header li a:hover {
 .body {
     margin : 50px auto 50px auto;
 }
+h1 {
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    transition: background-color .2s ease;
+    font-size : 48px;
+	padding : 0 0 0 30;
+	margin-bottom : 50px;
+	font-family : Exo;
+	color : #000000;
+}
 
 section {
 	align : center;
 	margin : auto;
 }
-.reminder{
+
+/* HOME PAGE REMINDERS & ACTIVE TASK */
+
+.reminder, .list, .profiles, .form{
 	width : 800px;
 	height : 400px;
 	border-radius : 10px;
 	background : rgba(0,0,0,0.5);
 	margin : auto;
 	margin-bottom : 10px;
+	padding : 10px;
+}
+.reminder {
 	text-align : center;
 }
 .active-report {
@@ -96,7 +115,32 @@ section {
 	background : rgba(0,0,0,0.5);
 	margin : auto;
 	text-align : center;
+	padding : 10px;
 }
+
+/* LIST OF REPORTS */
+
+.list {
+	text-align : center;
+}
+
+.list table th, .list table td {
+	border: 2px solid transparent;
+    background: rgba(0,0,0,0.3);
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+/* REPORT FORMS */
+
+/* PROFILES */
+
+.profiles table, .form table {
+	margin : 0px 13px;
+	padding-top : 10px;
+}
+
+/* SCORING PAGE (ADMIN) */
 
 .scoring-temp {
 	width : 1000px;
@@ -122,6 +166,7 @@ section {
 .scoring-temp ul li:hover {
 	background : rgba(0,0,0,0.5);
 }
+
 /* ======================================================
                         FOOTER
 ========================================================= */

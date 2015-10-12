@@ -24,25 +24,34 @@
 ?>
 
 <section class="body">
-	<div class="reminder">
-<?php
-	if ($_GET["admin"] == 0) { ?>
-		JOB REMINDER
-<?php } 
-	else if ($_GET["admin"] == 1) { ?>
-	INI APA YA?
-<?php } ?>
-	</div>
-	<div class="active-report">
-		<?php
-		if ($_GET["admin"] == 0) { ?>
-		--ALERT--<br>
-		EXTERMINATE INFESTED (CERES) - 7500 CREDITS<br>
-		<?php }
-		else if ($_GET["admin"] == 1) { ?>
-		--ALERT--<br>
-		Ig. Ari Krisnawati baru saja mengirimkan laporan!<br>
-		<?php } ?>
+	<div class="form">
+		<table>
+			<tr>
+				<td>Nama</td>
+				<td>:</td>
+				<td><?php echo $nama /*automated name here */ ?>Ig. Ari Krisnawati</td>
+			</tr>
+			<tr>
+				<td>Bidang Studi</td>
+				<td>:</td>
+				<td><?php echo $bidang /*automated name here */ ?>Matematika</td>
+			</tr>
+			<form name="report" method="POST" action="">
+			<tr>
+				<td>Topik</td>
+				<td>:</td>
+				<td><input type="text" name="subject"></td>
+			</tr>
+			<tr>
+				<td>Laporan</td>
+				<td>:</td>
+				<td><textarea name="laporan" rows="7" cols="50"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center"><input type="submit" value="Kirim"></td>
+			</tr>
+			</form>
+		</table>
 	</div>
 </section>
 

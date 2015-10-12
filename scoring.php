@@ -9,14 +9,10 @@
 	error_reporting(0);
 	$nama = $_POST["nama"];
 ?>	
-<header>
-	<div class="name">WELCOME, <?php echo $nama; ?>. <br> <?php echo date("d/m/Y"); ?> </div>
-	<ul>
-        <li><a href="main.php" title="Menu 1">Main Menu</a></li>
-        <li><a href="reports.php" title="Menu 2">Reports</a></li>
-		<li><a href="profile.php" title="Menu 3">Profile</a></li>
-    </ul> 
-</header>
+
+<?php
+	include("header.php");
+?>
 <section class="scoring-temp">
 	<ul id="scoring-report" style="width : 20%">
 		<li id="1" onClick="score_report(this.id)">Report 1</li>
@@ -36,9 +32,9 @@
 			<li>5</li>
 	</ul>
 </section>
-<footer>
-	FOOTER
-</footer>
+<?php 
+	include("footer.php");
+?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript">
 function score_report(id)
@@ -52,5 +48,6 @@ function score_teacher(id)
 	$(".rate").load("datadummy.html #rate"+id);
 }
 </script>
+
 </body>
 </html>
