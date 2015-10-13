@@ -30,14 +30,14 @@
 		JOB REMINDER
 <?php } 
 	else if ($_GET["admin"] == 1) { ?>
-	INI APA YA?
+	REMINDER
 <?php } ?>
 	</div>
 	<div class="active-report">
 		<?php
 		if ($_GET["admin"] == 0) { ?>
-		--ALERT--<br>
-		EXTERMINATE INFESTED (CERES) - 7500 CREDITS<br>
+		--ACTIVE TASK/REPORT--<br>
+		<br>
 		<?php }
 		else if ($_GET["admin"] == 1) { ?>
 		--ALERT--<br>

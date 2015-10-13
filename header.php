@@ -1,7 +1,8 @@
 <header>
-	<div class="name">WELCOME, <?php /* automated name here */ echo $nama; ?> Ig. Ari Krisnawati <br> <?php echo date("d/m/Y"); ?> </div>
+	<div class="name">WELCOME, <?php /* automated name here */ ?> Ig. Ari Krisnawati <br> <?php echo date("d/m/Y"); ?> </div>
 	<ul>
 		<?php
+			error_reporting(0);
 			$admin = $_GET["admin"];
 			if ($admin == 0) {
 			?>
