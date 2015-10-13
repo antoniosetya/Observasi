@@ -86,7 +86,7 @@
 			<input type="radio" name="selesai" value="0">Belum Selesai</td>
 	</tr>
 	<tr>
-		<td><input type="button" value='S U B M I T' onclick=cek()/>
+		<td><input type="button" value='S U B M I T' onclick=cek()>
 	</tr>
 	</table>
 </form>

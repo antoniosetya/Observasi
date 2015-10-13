@@ -24,7 +24,7 @@ $status=$_POST['selesai'];
 	}
 
    $sql="INSERT INTO assignment VALUES('$no','$nama','$id',
-         '$rincian','$status',NOW())";
+         '$rincian','$status')";
    $result=mysql_query($sql);
 		echo "Entry Data Berhasil";
 		echo "<BR>";

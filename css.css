@@ -12,7 +12,7 @@ html, body {
 	padding : 0;
 	width : 100%;
 	height : auto;
-	background-color : #ffffff;	
+	background-color : lightgreen;	
 	background-attachment: scroll;
     background-position: left top;
     background-repeat: repeat;
@@ -36,6 +36,8 @@ header {
 	transition : 1s;
 	margin-bottom : 30px;
 	box-shadow : 0px 0px 5px #000000;
+	border-bottom-left-radius : 5px;
+	border-bottom-right-radius : 5px;
 }
 
 header .name {
@@ -52,7 +54,7 @@ header ul {
 
 header ul li {
    float: left;
-   background-color: #000;
+   background-color: #ffa500;
    height : 35px;
    margin: 0px 2px 0 2px;
    color: #F00;
@@ -61,7 +63,7 @@ header ul li {
 header li a {
    color : #F00;  
    text-decoration : none; 
-   background-color: #000; 
+   background-color: orange; 
    height : 30px;
    padding-left : 5px;
    padding-right : 5px;
@@ -79,9 +81,13 @@ header li a:hover {
 .body {
     margin : 50px auto 50px auto;
 }
+.body a {
+	color : red;
+}
 h1 {
     text-align: center;
     background-color: rgba(0,0,0,0.5);
+	box-shadow : 0px 0px 5px #000;
     transition: background-color .2s ease;
     font-size : 48px;
 	padding : 0 0 0 30;

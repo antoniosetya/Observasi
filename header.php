@@ -2,7 +2,7 @@
 	<div class="name">WELCOME, <?php /* automated name here */ ?> Ig. Ari Krisnawati <br> <?php echo date("d/m/Y"); ?> </div>
 	<ul>
 		<?php
-			error_reporting(0);
+			error_reporting(0); 
 			$admin = $_GET["admin"];
 			if ($admin == 0) {
 			?>

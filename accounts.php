@@ -31,7 +31,7 @@
 				else if ($sortby == "Subjek") $sortname = "Bidang Studi";
 				else if ($sortby == "tgl_lahir") $sortname = "Tanggal Lahir";
 				?>
-		<p style="font-size : 16px">Sortir menurut <?php echo $sortname ?>. <br> Ubah sortir menurut :  <select name="sortby" id="box"style="background-color:rgba(0,0,0,0.5)">
+		<p align="center" style="font-size : 16px">Sortir menurut <?php echo $sortname ?>. <br> Ubah sortir menurut :  <select name="sortby" id="box"style="background-color : lightgreen">
 							<option value='nama_guru'>Nama Guru</option>
 							<option value='user'>User</option>
 							<option value='Priv'>Privilege</option>
