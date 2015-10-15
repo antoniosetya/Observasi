@@ -1,23 +1,39 @@
+<?php
+	$user = $_COOKIE['User'];
+	$pass = $_COOKIE['Pass'];
+	$p = $_COOKIE['Priv'];
+?>
+
 <header>
-	<div class="name">WELCOME, <?php /* automated name here */ ?> Ig. Ari Krisnawati <br> <?php echo date("d/m/Y"); ?> </div>
-	<ul>
+	<div class="name">WELCOME, <?php echo $user ?> <br> <?php echo date("d/m/Y"); ?> </div>
+	<div style="float : right">
+		<ul>
 		<?php
 			error_reporting(0); 
-			$admin = $_GET["admin"];
-			if ($admin == 0) {
+			if ($p == 1) {
 			?>
-				<li><a href="main.php?admin=0">Main Menu</a></li>
-				<li><a href="reports.php?admin=0">Reports</a></li>
-		        <li><a href="profile.php?admin=0">Profile</a></li>
+				<a href="main1.php"><li>Main Menu</li></a>
+				<a href="reports.php"><li>Reports</li></a>
 			<?php
 			}
-			else if ($admin == 1) {
+			else if ($p == 2) {
 			?>
-				<li><a href="main.php?admin=1">Main Menu</a></li>
-				<li><a href="scoring.php?admin=1">Scoring</a></li>
-				<li><a href="profile.php?admin=1">Profile</a></li> 
+				<a href="main1.php"><li>Main Menu</li></a>
+				<a href="lapakhir.php"><li>Laporan Akhir</li></a>
+				<a href="assignment_output.php"><li>Assignment</li></a>
+			<?php
+			}
+			else if ($p == 3) {
+				?>
+				<a href="main3.php"><li>Main Menu</li></a>
+				<a href="lapakhir.php"><li>Laporan Akhir</li></a>
+				<a href="lapgur_update.php"><li>Laporan Guru/li></a><
+				<a href="assignment_ubah.php"><li>Assignment</li></a>
 			<?php
 			}
 		?>
-    </ul> 
+		<a href="profile.php"><li>Profile</li></a>
+		<a href="logout.php"><li>Logout</li></a>
+    </ul>
+	</div>
 </header>

@@ -43,7 +43,6 @@
 				<th width="3%">No.</th>
 				<th width="10%">User</th>
 				<th width="20%">Nama Guru</th>
-				<th width="8%">Pass</th>
 				<th width="3%">Priv</th>
 				<th width="10%">Subjek</th>
 				<th width="12%">Tanggal Lahir</th>
@@ -67,10 +66,7 @@
     					<font face=Arial size=2><?php echo mysql_result($result,$i,"User") ?></font>
     			 </td>
     			 <td align=left valign=top>
-    					<font face=Arial size=2><?php echo mysql_result($result,$i,"nama_guru") ?></font>
-    			 </td>
-    			 <td align=left valign=top>
-    					<font face=Arial size=2><?php echo mysql_result($result,$i,"Pass") ?></font>
+    					<font face=Arial size=2><a href="profile.php?row=<?php echo $i?>"><?php echo mysql_result($result,$i,"nama_guru") ?></a></font>
     			 </td>
     			 <td align=left valign=top>
     					<font face=Arial size=2><?php echo mysql_result($result,$i,"Priv") ?></font>
